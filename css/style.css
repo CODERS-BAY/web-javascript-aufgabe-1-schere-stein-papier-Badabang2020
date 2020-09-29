@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body {
+  margin: 2rem 2rem;
+  text-align: center;
+  background-color: #706363;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  max-width: 50%;
+  max-height: 100%;
+}
+
+hr {
+  color: #f0f8ff;
+  height: 0.2rem;
+  background-color: #f0f8ff;
+}
+
+#imgSkynet {
+  max-width: 85%;
+  border-radius: 25%;
+}
+
+button {
+  background-color: #000000;
+  border: 0.5rem solid #ff0000be;
+  border-radius: 15%;
+  margin: 0 0.5rem;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.scoreComStyle {
+  color: #f00a0a;
+  font-weight: 900;
+}
+
+.scorePlayerStyle {
+  color: #00ff00;
+  font-weight: 900;
+}
+
+.computer {
+  display: flex;
+  justify-content: center;
+}
+
+.containerComChoice {
+  border: 0.5rem inset #b41111;
+  border-radius: 25%;
+  min-height: 15rem;
+  width: 15rem;
+}
+
+.containerComChoice div {
+  justify-content: center;
+  align-items: center;
+  /* max-width: 35rem; */
+  max-height: 15rem;
+}
+
+.containerPlayerBtn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.containerRock {
+  position: relative;
+  max-width: 30rem;
+}
+
+.containerPaper {
+  position: relative;
+  max-width: 30rem;
+}
+
+.containerScissors {
+  position: relative;
+  max-width: 30rem;
+}
+
+.imgDescription {
+  font-size: 500%;
+  font-weight: 900;
+  position: absolute;
+  visibility: hidden;
+  color: #ff1b5f;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+
+/* .hiddenElements {
+  display: none;
+} */
+
+/* .hiddenDiv {
+  display: none;
+} */
+
+button:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+button:active {
+  background-color: #000000;
+  border: 0.5rem solid #00ff00;
+  margin: 0 0.5rem;
+}

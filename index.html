@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="vieport" content="width=device-width, initial-scale=1" />
+    <title>roshambo</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <h1>Welcome to "roshambo" (Rock - Paper - Scissors)</h1>
+    <h3>Winning condition - win 3 rounds</h3>
+    <div class="counter">
+      <h2 class="scoreComStyle">Score Computer:</h2>
+      <h3 id="scoreCom"></h3>
+      <h2>Round:</h2>
+      <h3 id="roundCounter"></h3>
+      <h2 class="scorePlayerStyle">Score Player:</h2>
+      <h3 id="scorePlayer"></h3>
+    </div>
+    <hr />
+    <h2>Skynet</h2>
+    <section class="computer">
+      <div class="containerComChoice">
+        <div>
+          <img id="imgSkynet" src="img/Skynet.jpg" />
+
+          <!-- <img id="rockCom" src="img/rock.jpg" class="hiddenDiv" />
+          <img id="paperCom" src="img/paper.jpg" class="hiddenDiv" />
+          <img id="scissorsCom" src="img/scissors.jpg" class="hiddenDiv" /> -->
+        </div>
+      </div>
+    </section>
+    <hr />
+    <h2>Player</h2>
+    <section class="player">
+      <div class="containerPlayerBtn">
+        <div class="containerRock">
+          <button type="button" id="rock">
+            <img src="img/rock.jpg" alt='Dwayne "the rock" johnson' />
+            <p class="imgDescription">Rock</p>
+          </button>
+        </div>
+        <div class="containerPaper">
+          <button type="button" id="paper">
+            <img src="img/paper.jpg" alt="staple of 100dollar notes" />
+            <p class="imgDescription">Paper</p>
+          </button>
+        </div>
+        <div class="containerScissors">
+          <button type="button" id="scissors">
+            <img src="img/scissors.jpg" alt="Edward Scissorhands" />
+            <p class="imgDescription">Scissors</p>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <span class="hiddenDiv"><h4>ROCK</h4></span>
+
+    <script rel="text/javascript" src="javascript.js"></script>
+  </body>
+</html>
